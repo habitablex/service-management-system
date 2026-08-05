@@ -1,0 +1,8 @@
+Windows PowerShell:
+Get-FileHash .\HS-Service-Management-System-v3.2-Windows-x64.zip -Algorithm SHA256
+
+Windows Command Prompt:
+certutil -hashfile HS-Service-Management-System-v3.2-Windows-x64.zip SHA256
+
+Linux/macOS:
+sha256sum HS-Service-Management-System-v3.2-Windows-x64.zip
